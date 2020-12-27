@@ -1,0 +1,170 @@
+#title
+{
+  background-color: #ff4c68;
+   color: #fff;
+      /*changing text colour inside title  */
+}
+h1
+{
+  font: 'Montserrat-Black' !important;
+  font-size:3.5rem !important;
+  line-height: 1.5 !important;
+}
+.container-fluid{
+  padding: 3% 15% 7% !important;
+}
+body
+{
+  font-family: "Montserrat";
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+
+/* Navbar only */
+.navbar {
+ padding:0 0 4.5rem !important;    /*to make the tindog and the text under look good in a straight line */
+}
+/*space between the  items like contact inside navbar */
+.nav-item {
+padding: 0 18px;
+}
+/* changing the text inside the navbar */
+ .nav-link {
+   font-size: 1.2rem;
+   font-family: "Montserrat-Light";
+ }
+
+ /* pushing buttons */
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  /* to make the image go behind the feature section */
+  position: absolute;
+   right: 30%;  /*as the position is absolute */
+}
+
+#features
+{
+  padding: 7% 15%;
+  background-color: #fff;
+  /* relative because we dont want to take feature section out of the html flow so that our image go behinds the feature as z index is 1 */
+  position: relative;
+  z-index: 1;
+}
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+h3
+{
+  font-family:"Montserrat-bold";
+  font-size: 1.5rem !important;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* icon style */
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color: #ff4c68;
+}
+
+  /* Testimonial */
+#testimonials
+{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;    /*Text-colour */
+}
+h2
+{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem!important;
+  line-height: 1.5!important;
+}
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15% ;
+}
+
+/* PRESS */
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo
+{
+  width: 15%;
+  margin: 20px  20px  50px ;     /*top , left and right , buttom */
+}
+/* pricing */
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-coloum
+{
+  padding: 3% 2%;
+}
+
+/* when viewing in mobile screen */
+@media ( max-width: 1028px)
+{
+  .title-image{
+     position: static;  /*making it static so that the image gets into html flow  */
+      transform : rotate(0);  /*making the picture straight from 45 degree */
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* Footer */
+#cta
+{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15% ;
+}
+.cta-heading
+{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem !important;
+  /* line-height: 1.5rem;  or it will overlap */
+}
+#footer
+{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon
+{
+  margin: 20px 10px;
+}
